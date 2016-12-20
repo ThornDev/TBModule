@@ -105,6 +105,8 @@
 				817C6B911E082EDC005B182F /* AppDelegate.m */,
 				817C6B931E082EDC005B182F /* ViewController.h */,
 				817C6B941E082EDC005B182F /* ViewController.m */,
+				81F84F031E095BAE003FDBF6 /* MessageModule */,
+				81F84F021E095BA3003FDBF6 /* MineModule */,
 				817C6B961E082EDC005B182F /* Main.storyboard */,
 				817C6B991E082EDC005B182F /* Assets.xcassets */,
 				817C6B9B1E082EDC005B182F /* LaunchScreen.storyboard */,
@@ -138,6 +140,20 @@
 				817C6BB41E082EDC005B182F /* Info.plist */,
 			);
 			path = TBModuleUITests;
+			sourceTree = "<group>";
+		};
+		81F84F021E095BA3003FDBF6 /* MineModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MineModule;
+			sourceTree = "<group>";
+		};
+		81F84F031E095BAE003FDBF6 /* MessageModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MessageModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,6 +530,7 @@
 				817C6BB91E082EDC005B182F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817C6BBA1E082EDC005B182F /* Build configuration list for PBXNativeTarget "TBModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				817C6BBC1E082EDC005B182F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817C6BBD1E082EDC005B182F /* Build configuration list for PBXNativeTarget "TBModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				817C6BBF1E082EDC005B182F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
