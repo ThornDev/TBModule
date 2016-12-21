@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811CBD181E0AD869001B0280 /* TBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811CBD171E0AD869001B0280 /* TBMineViewController.m */; };
 		817C6B8F1E082EDC005B182F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C6B8E1E082EDC005B182F /* main.m */; };
 		817C6B921E082EDC005B182F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C6B911E082EDC005B182F /* AppDelegate.m */; };
 		817C6B951E082EDC005B182F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C6B941E082EDC005B182F /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811CBD161E0AD869001B0280 /* TBMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMineViewController.h; sourceTree = "<group>"; };
+		811CBD171E0AD869001B0280 /* TBMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMineViewController.m; sourceTree = "<group>"; };
 		817C6B8A1E082EDC005B182F /* TBModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817C6B8E1E082EDC005B182F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		817C6B901E082EDC005B182F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		811CBD191E0AD86D001B0280 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				811CBD161E0AD869001B0280 /* TBMineViewController.h */,
+				811CBD171E0AD869001B0280 /* TBMineViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		811CBD1A1E0AD878001B0280 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
 		817C6B811E082EDC005B182F = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +164,8 @@
 		81F84F021E095BA3003FDBF6 /* MineModule */ = {
 			isa = PBXGroup;
 			children = (
+				811CBD1A1E0AD878001B0280 /* Actions */,
+				811CBD191E0AD86D001B0280 /* Controllers */,
 			);
 			name = MineModule;
 			sourceTree = "<group>";
@@ -295,6 +316,7 @@
 				817C6B951E082EDC005B182F /* ViewController.m in Sources */,
 				817C6B921E082EDC005B182F /* AppDelegate.m in Sources */,
 				817C6B8F1E082EDC005B182F /* main.m in Sources */,
+				811CBD181E0AD869001B0280 /* TBMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
