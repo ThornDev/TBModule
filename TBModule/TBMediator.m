@@ -18,6 +18,7 @@
     return mediator;
 }
 
+
 /*
  URL的一般格式为：
  scheme://host:port/path?query
