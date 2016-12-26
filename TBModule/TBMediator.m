@@ -9,11 +9,11 @@
 #import "TBMediator.h"
 
 @implementation TBMediator
+
 /**
  *  单例访问
  *
  */
-
 + (instancetype)sharedInstance {
     static TBMediator *mediator;
     static dispatch_once_t onceToken;
