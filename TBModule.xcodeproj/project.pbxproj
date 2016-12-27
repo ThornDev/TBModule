@@ -17,6 +17,7 @@
 		817C6B9D1E082EDC005B182F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817C6B9B1E082EDC005B182F /* LaunchScreen.storyboard */; };
 		817C6BA81E082EDC005B182F /* TBModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C6BA71E082EDC005B182F /* TBModuleTests.m */; };
 		817C6BB31E082EDC005B182F /* TBModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817C6BB21E082EDC005B182F /* TBModuleUITests.m */; };
+		81DEDA0E1E121E5900F07CB7 /* TBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DEDA0D1E121E5900F07CB7 /* TBAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		817C6BAE1E082EDC005B182F /* TBModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		817C6BB21E082EDC005B182F /* TBModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBModuleUITests.m; sourceTree = "<group>"; };
 		817C6BB41E082EDC005B182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DEDA0C1E121E5900F07CB7 /* TBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAlertController.h; sourceTree = "<group>"; };
+		81DEDA0D1E121E5900F07CB7 /* TBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		8166F8361E0C1B6E00ABE883 /* BaseModule */ = {
 			isa = PBXGroup;
 			children = (
+				81DEDA0B1E121E2300F07CB7 /* TBAlertController */,
 				8166F8371E0C1BA600ABE883 /* Core */,
 			);
 			name = BaseModule;
@@ -180,6 +184,15 @@
 				817C6BB41E082EDC005B182F /* Info.plist */,
 			);
 			path = TBModuleUITests;
+			sourceTree = "<group>";
+		};
+		81DEDA0B1E121E2300F07CB7 /* TBAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				81DEDA0C1E121E5900F07CB7 /* TBAlertController.h */,
+				81DEDA0D1E121E5900F07CB7 /* TBAlertController.m */,
+			);
+			name = TBAlertController;
 			sourceTree = "<group>";
 		};
 		81F84F021E095BA3003FDBF6 /* MineModule */ = {
@@ -336,6 +349,7 @@
 			files = (
 				817C6B951E082EDC005B182F /* ViewController.m in Sources */,
 				817C6B921E082EDC005B182F /* AppDelegate.m in Sources */,
+				81DEDA0E1E121E5900F07CB7 /* TBAlertController.m in Sources */,
 				817C6B8F1E082EDC005B182F /* main.m in Sources */,
 				8166F83A1E0C1BC100ABE883 /* TBMediator.m in Sources */,
 				811CBD181E0AD869001B0280 /* TBMineViewController.m in Sources */,

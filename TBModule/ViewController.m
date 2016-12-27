@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TBAlertController.h"
 @interface ViewController ()
 
 @end
@@ -25,5 +25,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showAlertAction:(UIButton *)sender {
+    [[TBAlertController sharedInstance] showAlert:self
+                                       alertTitle:@"提示"
+                                          message:@"警示信息，信息！"
+                                      buttonTitle:@"知道了"
+                                       buttonType:UIAlertActionStyleDefault Click:^{
+                                           NSLog(@"Click");
+                                       }];
+}
 
 @end
