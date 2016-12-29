@@ -11,6 +11,11 @@
 
 typedef void (^ClickHandler) (void);
 
+typedef NS_ENUM(NSUInteger,TBAlertActionType) {
+    TBAlertActionStyleDefault = 0,
+    TBAlertActionStyleCancel,
+    TBAlertActionStyleDestructive
+};
 
 @interface TBAlertController : NSObject
 // single request
