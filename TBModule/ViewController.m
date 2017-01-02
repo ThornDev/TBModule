@@ -26,6 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Actions
 - (IBAction)showAlertAction:(UIButton *)sender {
     [[TBAlertController sharedInstance] showAlert:self
                                        alertTitle:@"提示"
